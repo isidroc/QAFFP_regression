@@ -7,7 +7,9 @@ QSAR-derived Affinity Fingerprints (part 2): modeling performance for cytotoxici
 Isidro Cortés-Ciriano, Ctibor Škuta, Andreas Bender, and Daniel Svozil
 
 
-======
+Running the code
+------
+
 To generate the results in our paper run *run_QAFFP.py* as indicated in the file *launch_all.sh*. 
 All the data sets used in the publications are in the folder: *sdf_files*.
 
