@@ -22,8 +22,8 @@ from scipy.stats import pearsonr
 target_now = sys.argv[1]
 type_tr=sys.argv[2]
 repetition_now=int(sys.argv[3])
-fp_length=int(sys.argv[5])
 type_fps = sys.argv[4]
+fp_length=int(sys.argv[5]) +1
 
 suppl = Chem.SDMolSupplier("datasets/{}.sdf".format(target_now))
 mols = [x for x in suppl if x is not None]
